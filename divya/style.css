@@ -1,7 +1,50 @@
-body {
-    background-color: black;
+@font-face { font-family: CYN Modulator; src: url('CYN_ModulatorBook.otf') }
+.home{
+  margin-top: -100px;
+  margin-left: -220px;
 }
-.home {
-  margin-top: 20px;
-  margin-left: 20px;
+
+body {
+    background-color: #142737;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+h1{
+  font-family: CYN Modulator;
+  color: #f5f0eb;
+  width: 400px;
+}
+p {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: #f5f0eb;
+  width: 400px;
+}
+
+.flipbook {
+  margin-top: -50px;
+  width: 1000px;
+  height:750px;
+}
+
+.flipbook .hard {
+border: none;
+}
+
+.flipbook .page {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.page img{
+  width: 100%;
+  object-fit:fill;
+  margin: auto;
 }
