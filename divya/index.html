@@ -1,13 +1,58 @@
 <!DOCTYPE html>
 <head>  
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+        p {
+            position: fixed;
+            top: 400px;
+            left: 250px;
+        }
+        h1 {
+            position: fixed;
+            top: 250px;
+            left: 250px;
+        }
+        </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body style="background-color: black;"> 
     <nav>
         <a href="../"><img src="homeicon.png" 
+            class="home"
             width="50" 
             alt="Home Icon"> </a>
       </nav>
+<body>
+    <h1> Welcome To Divya's Digital Zine!</h1>
+    <p> BEGIN EXPLORING THE SOLAR PUNK FUTURE
+        (flip through the zine by clicking the left and right corners of the page) </p>
+    <div class= "flipbook">
+        <div class="hard"></div>
+        <div class="hard"></div>
+        <div> <img src ="zine images/Cover Page.png" alt="Solar Punk Cover Page, images of green architecture and sustainable transportation. One way out, Zine by Divya Tennant." /></div>
+        <div> <img src="zine images/2.png" alt="Solar Punk is a literary and artistic movement that envisions and works toward actualizing a sustainable future interconnected with nature and community. Two images are on the page, one of children playing in a field and one of dome-shaped greenhouses." /></div>
+        <div> <img src="zine images/3.png" alt="To-Do List, Energy: Technology, Sustainability, Community. An image of a Japanese train running across green fields."/></div>
+        <div> <img src="zine images/4.png" alt="Energy Powers The Earth, and can kill it at the same time. Images of harmful energy sources: Nuclear energy, natural gas and coal energy."/></div>
+        <div> <img src="zine images/5.png" alt="Here's how we keep the planet alive: images of wind energy, solar energy and ocean energy."/></div>
+        <div> <img src="zine images/6.png" alt="Technology, image of train with caption electric public transportation. Image of people walking next to train tracks in a city with caption pedestrian-centered cities."/></div>
+        <div> <img src="zine images/7.png"alt="Image of plane with caption environmentally conscious electric planes, image of green architecture. Agriculture practices prioritizing: clean energy, carbon reduction, water conservation, fair labor practices, permaculture. Image of solar-panels on vegetation."/></div>
+        <div> <img src="zine images/8.png"alt="Sustainability. After we actualize this reality, how do we sustain it? Image of Climate Change protesters with signs reading 'System Change not Climate Change' and caption Climate Policy and Legislation. Image of nature incorporated into a city with caption rewilding nature back into society."/></div>
+        <div> <img src="zine images/9.png" alt="Image of zero waste system cycle displaying responsible policies that protect the environment, clean manufacturing, zero waste community programs and recovery infastructure all benefiting an empowered community. Birds eye image of green architecture with caption urban planning for greener cities."/></div>
+        <div> <img src="zine images/10.png" alt="Community. Shifting from individualism to collectivism. Image of children exploring nature with caption environmental education. Illustration of solar punk community with gardening by Robin Guinin."/></div>
+        <div> <img src="zine images/11.png" alt="Reintroducing third places: libraries, parks, rec centers, community gardens, laundromats, spirtual centers, volunteer spaces. Images of community garden, people gathered in a greenhouse room with caption community empowerment and cooperation, image of produce at a farmer's market with caption local self sufficiency."/></div>
+        <div> <img src="zine images/last1.png" alt="This is not the end. Image of burning Earth, each hemisphere on the top and bottom of page. One way out. Zine by Divya Tennant. "/></div>
+        <div> <img src="zine images/last2.png"alt="This is the beginning. Image of healthy Earth, each hemisphere on the top and bottom of the page. One way out. Zine by Divya Tennant." /></div>
+        <div> <img src="zine images/Cover Page.png"alt="Solar Punk Cover Page, images of green architecture and sustainable transportation. One way out, Zine by Divya Tennant."/></div>
+        <div></div>
+        
+    </div>
+<script src="jquery.js"></script>
+<script src="turn.js"></script>
+<script> 
+$(".flipbook").turn();
 
+</script>
 </body>
+
 
 </html>
