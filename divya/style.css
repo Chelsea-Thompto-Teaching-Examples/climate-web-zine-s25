@@ -24,12 +24,15 @@ p {
   font-style: normal;
   color: #f5f0eb;
   width: 400px;
+  text-align: center;
 }
 
 .flipbook {
   margin-top: -50px;
   width: 1000px;
   height:750px;
+ 
+ 
 }
 
 .flipbook .hard {
