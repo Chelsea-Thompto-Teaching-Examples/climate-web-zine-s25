@@ -1,4 +1,17 @@
-.home{
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.home {
   margin-top: -100px;
   margin-left: -220px;
+  position: absolute;
+  width: 50;
+  cursor: pointer;
+}
+
+.webzine {
+  width: 100%;
+  display: block;
 }
