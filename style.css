@@ -53,6 +53,10 @@ img:hover {
   filter: grayscale(100%);
 }
 
+a{
+  color: white;
+}
+
 @keyframes pulse {
   0% {background-color: pink;}
   10% {background-color: aqua;}
