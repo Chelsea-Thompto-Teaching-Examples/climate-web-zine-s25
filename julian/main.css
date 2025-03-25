@@ -1,4 +1,16 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+body {
+    font-family: "Special Elite", system-ui;
     background-color: black;
     color: white;
+}
+img.art {
+    width: 100%;
+}
+.picture-frame {
+    display:inline-block;
+    /*width: 50%;*/
+    vertical-align: top;
+    background-repeat: no-repeat;
 }
