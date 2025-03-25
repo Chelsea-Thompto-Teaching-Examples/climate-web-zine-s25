@@ -53,7 +53,7 @@ img:hover {
 }
 
 @keyframes pulse {
-  0% {background-color: red;}
+  0% {background-color: pink;}
   10% {background-color: aqua;}
   20% {background-color: magenta}
   30% {background-color: greenyellow;}
@@ -62,6 +62,6 @@ img:hover {
   60% {background-color: blueviolet;}
   70% {background-color: orangered;}
   80% {background-color: lightpink;}
-  90% {background-color: blue;}
-  100% {background-color: red;}
+  90% {background-color: lightblue;}
+  100% {background-color: yellow;}
 }
