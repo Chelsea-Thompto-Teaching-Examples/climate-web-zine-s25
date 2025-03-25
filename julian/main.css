@@ -9,8 +9,10 @@ img.art {
     width: 100%;
 }
 .picture-frame {
-    display:inline-block;
     /*width: 50%;*/
     vertical-align: top;
     background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
 }
