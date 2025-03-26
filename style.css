@@ -58,9 +58,11 @@ img:hover {
 
 a{
   color: white;
-  margin: 0px;
+  margin: auto;
   text-align: center;
   padding: auto;
+  margin-left: 50px;
+  margin-right: 290px;
 }
 
 @keyframes pulse {
